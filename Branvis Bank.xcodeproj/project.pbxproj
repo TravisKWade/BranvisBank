@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FAEE7901DB1295600F17EC6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FAEE78F1DB1295600F17EC6 /* main.m */; };
+		1FAEE7931DB1295600F17EC6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FAEE7921DB1295600F17EC6 /* AppDelegate.m */; };
+		1FAEE7961DB1295600F17EC6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FAEE7951DB1295600F17EC6 /* ViewController.m */; };
+		1FAEE7991DB1295600F17EC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FAEE7971DB1295600F17EC6 /* Main.storyboard */; };
+		1FAEE79C1DB1295600F17EC6 /* Branvis_Bank.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1FAEE79A1DB1295600F17EC6 /* Branvis_Bank.xcdatamodeld */; };
+		1FAEE79E1DB1295600F17EC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FAEE79D1DB1295600F17EC6 /* Assets.xcassets */; };
+		1FAEE7A11DB1295600F17EC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FAEE79F1DB1295600F17EC6 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1FAEE78B1DB1295600F17EC6 /* Branvis Bank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Branvis Bank.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FAEE78F1DB1295600F17EC6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1FAEE7911DB1295600F17EC6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1FAEE7921DB1295600F17EC6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1FAEE7941DB1295600F17EC6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1FAEE7951DB1295600F17EC6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1FAEE7981DB1295600F17EC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1FAEE79B1DB1295600F17EC6 /* Branvis_Bank.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Branvis_Bank.xcdatamodel; sourceTree = "<group>"; };
+		1FAEE79D1DB1295600F17EC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1FAEE7A01DB1295600F17EC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1FAEE7A21DB1295600F17EC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FAEE7881DB1295600F17EC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FAEE7821DB1295600F17EC6 = {
+			isa = PBXGroup;
+			children = (
+				1FAEE78D1DB1295600F17EC6 /* Branvis Bank */,
+				1FAEE78C1DB1295600F17EC6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1FAEE78C1DB1295600F17EC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FAEE78B1DB1295600F17EC6 /* Branvis Bank.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FAEE78D1DB1295600F17EC6 /* Branvis Bank */ = {
+			isa = PBXGroup;
+			children = (
+				1FAEE7911DB1295600F17EC6 /* AppDelegate.h */,
+				1FAEE7921DB1295600F17EC6 /* AppDelegate.m */,
+				1FAEE7941DB1295600F17EC6 /* ViewController.h */,
+				1FAEE7951DB1295600F17EC6 /* ViewController.m */,
+				1FAEE7971DB1295600F17EC6 /* Main.storyboard */,
+				1FAEE79D1DB1295600F17EC6 /* Assets.xcassets */,
+				1FAEE79F1DB1295600F17EC6 /* LaunchScreen.storyboard */,
+				1FAEE7A21DB1295600F17EC6 /* Info.plist */,
+				1FAEE79A1DB1295600F17EC6 /* Branvis_Bank.xcdatamodeld */,
+				1FAEE78E1DB1295600F17EC6 /* Supporting Files */,
+			);
+			path = "Branvis Bank";
+			sourceTree = "<group>";
+		};
+		1FAEE78E1DB1295600F17EC6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1FAEE78F1DB1295600F17EC6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FAEE78A1DB1295600F17EC6 /* Branvis Bank */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FAEE7A51DB1295600F17EC6 /* Build configuration list for PBXNativeTarget "Branvis Bank" */;
+			buildPhases = (
+				1FAEE7871DB1295600F17EC6 /* Sources */,
+				1FAEE7881DB1295600F17EC6 /* Frameworks */,
+				1FAEE7891DB1295600F17EC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Branvis Bank";
+			productName = "Branvis Bank";
+			productReference = 1FAEE78B1DB1295600F17EC6 /* Branvis Bank.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FAEE7831DB1295600F17EC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Branvis Software";
+				TargetAttributes = {
+					1FAEE78A1DB1295600F17EC6 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = QG8X6Q7J3C;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1FAEE7861DB1295600F17EC6 /* Build configuration list for PBXProject "Branvis Bank" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1FAEE7821DB1295600F17EC6;
+			productRefGroup = 1FAEE78C1DB1295600F17EC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FAEE78A1DB1295600F17EC6 /* Branvis Bank */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FAEE7891DB1295600F17EC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FAEE7A11DB1295600F17EC6 /* LaunchScreen.storyboard in Resources */,
+				1FAEE79E1DB1295600F17EC6 /* Assets.xcassets in Resources */,
+				1FAEE7991DB1295600F17EC6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FAEE7871DB1295600F17EC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FAEE7961DB1295600F17EC6 /* ViewController.m in Sources */,
+				1FAEE79C1DB1295600F17EC6 /* Branvis_Bank.xcdatamodeld in Sources */,
+				1FAEE7931DB1295600F17EC6 /* AppDelegate.m in Sources */,
+				1FAEE7901DB1295600F17EC6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1FAEE7971DB1295600F17EC6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FAEE7981DB1295600F17EC6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1FAEE79F1DB1295600F17EC6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FAEE7A01DB1295600F17EC6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1FAEE7A31DB1295600F17EC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1FAEE7A41DB1295600F17EC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1FAEE7A61DB1295600F17EC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QG8X6Q7J3C;
+				INFOPLIST_FILE = "Branvis Bank/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Branvis-Software.Branvis-Bank";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1FAEE7A71DB1295600F17EC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QG8X6Q7J3C;
+				INFOPLIST_FILE = "Branvis Bank/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Branvis-Software.Branvis-Bank";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FAEE7861DB1295600F17EC6 /* Build configuration list for PBXProject "Branvis Bank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FAEE7A31DB1295600F17EC6 /* Debug */,
+				1FAEE7A41DB1295600F17EC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FAEE7A51DB1295600F17EC6 /* Build configuration list for PBXNativeTarget "Branvis Bank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FAEE7A61DB1295600F17EC6 /* Debug */,
+				1FAEE7A71DB1295600F17EC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1FAEE79A1DB1295600F17EC6 /* Branvis_Bank.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1FAEE79B1DB1295600F17EC6 /* Branvis_Bank.xcdatamodel */,
+			);
+			currentVersion = 1FAEE79B1DB1295600F17EC6 /* Branvis_Bank.xcdatamodel */;
+			path = Branvis_Bank.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1FAEE7831DB1295600F17EC6 /* Project object */;
+}
