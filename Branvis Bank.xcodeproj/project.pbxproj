@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		1FAEE7901DB1295600F17EC6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FAEE78F1DB1295600F17EC6 /* main.m */; };
 		1FAEE7931DB1295600F17EC6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FAEE7921DB1295600F17EC6 /* AppDelegate.m */; };
-		1FAEE7961DB1295600F17EC6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FAEE7951DB1295600F17EC6 /* ViewController.m */; };
+		1FAEE7961DB1295600F17EC6 /* LogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FAEE7951DB1295600F17EC6 /* LogInViewController.m */; };
 		1FAEE7991DB1295600F17EC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FAEE7971DB1295600F17EC6 /* Main.storyboard */; };
 		1FAEE79C1DB1295600F17EC6 /* Branvis_Bank.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1FAEE79A1DB1295600F17EC6 /* Branvis_Bank.xcdatamodeld */; };
 		1FAEE79E1DB1295600F17EC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FAEE79D1DB1295600F17EC6 /* Assets.xcassets */; };
@@ -21,8 +21,8 @@
 		1FAEE78F1DB1295600F17EC6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1FAEE7911DB1295600F17EC6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1FAEE7921DB1295600F17EC6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1FAEE7941DB1295600F17EC6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1FAEE7951DB1295600F17EC6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1FAEE7941DB1295600F17EC6 /* LogInViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LogInViewController.h; sourceTree = "<group>"; };
+		1FAEE7951DB1295600F17EC6 /* LogInViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LogInViewController.m; sourceTree = "<group>"; };
 		1FAEE7981DB1295600F17EC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1FAEE79B1DB1295600F17EC6 /* Branvis_Bank.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Branvis_Bank.xcdatamodel; sourceTree = "<group>"; };
 		1FAEE79D1DB1295600F17EC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,10 +60,10 @@
 		1FAEE78D1DB1295600F17EC6 /* Branvis Bank */ = {
 			isa = PBXGroup;
 			children = (
+				1FAEE7A91DB133F700F17EC6 /* models */,
+				1FAEE7A81DB133E700F17EC6 /* view controllers */,
 				1FAEE7911DB1295600F17EC6 /* AppDelegate.h */,
 				1FAEE7921DB1295600F17EC6 /* AppDelegate.m */,
-				1FAEE7941DB1295600F17EC6 /* ViewController.h */,
-				1FAEE7951DB1295600F17EC6 /* ViewController.m */,
 				1FAEE7971DB1295600F17EC6 /* Main.storyboard */,
 				1FAEE79D1DB1295600F17EC6 /* Assets.xcassets */,
 				1FAEE79F1DB1295600F17EC6 /* LaunchScreen.storyboard */,
@@ -80,6 +80,22 @@
 				1FAEE78F1DB1295600F17EC6 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1FAEE7A81DB133E700F17EC6 /* view controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1FAEE7941DB1295600F17EC6 /* LogInViewController.h */,
+				1FAEE7951DB1295600F17EC6 /* LogInViewController.m */,
+			);
+			name = "view controllers";
+			sourceTree = "<group>";
+		};
+		1FAEE7A91DB133F700F17EC6 /* models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,7 +170,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FAEE7961DB1295600F17EC6 /* ViewController.m in Sources */,
+				1FAEE7961DB1295600F17EC6 /* LogInViewController.m in Sources */,
 				1FAEE79C1DB1295600F17EC6 /* Branvis_Bank.xcdatamodeld in Sources */,
 				1FAEE7931DB1295600F17EC6 /* AppDelegate.m in Sources */,
 				1FAEE7901DB1295600F17EC6 /* main.m in Sources */,
@@ -316,6 +332,7 @@
 				1FAEE7A71DB1295600F17EC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
