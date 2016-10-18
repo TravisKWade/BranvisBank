@@ -14,6 +14,9 @@
 		1FAEE79C1DB1295600F17EC6 /* Branvis_Bank.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1FAEE79A1DB1295600F17EC6 /* Branvis_Bank.xcdatamodeld */; };
 		1FAEE79E1DB1295600F17EC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FAEE79D1DB1295600F17EC6 /* Assets.xcassets */; };
 		1FAEE7A11DB1295600F17EC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FAEE79F1DB1295600F17EC6 /* LaunchScreen.storyboard */; };
+		1FF706FC1DB65CE1008A3B47 /* APIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF706FB1DB65CE1008A3B47 /* APIManager.m */; };
+		1FF707061DB66423008A3B47 /* WebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF707051DB66423008A3B47 /* WebService.m */; };
+		1FF707091DB66FF9008A3B47 /* KeychainWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF707081DB66FF9008A3B47 /* KeychainWrapper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,12 @@
 		1FAEE79D1DB1295600F17EC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FAEE7A01DB1295600F17EC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1FAEE7A21DB1295600F17EC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FF706FA1DB65CE1008A3B47 /* APIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIManager.h; sourceTree = "<group>"; };
+		1FF706FB1DB65CE1008A3B47 /* APIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIManager.m; sourceTree = "<group>"; };
+		1FF707041DB66423008A3B47 /* WebService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebService.h; sourceTree = "<group>"; };
+		1FF707051DB66423008A3B47 /* WebService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebService.m; sourceTree = "<group>"; };
+		1FF707071DB66FF9008A3B47 /* KeychainWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainWrapper.h; sourceTree = "<group>"; };
+		1FF707081DB66FF9008A3B47 /* KeychainWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainWrapper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,16 +69,17 @@
 		1FAEE78D1DB1295600F17EC6 /* Branvis Bank */ = {
 			isa = PBXGroup;
 			children = (
-				1FAEE7A91DB133F700F17EC6 /* models */,
-				1FAEE7A81DB133E700F17EC6 /* view controllers */,
 				1FAEE7911DB1295600F17EC6 /* AppDelegate.h */,
 				1FAEE7921DB1295600F17EC6 /* AppDelegate.m */,
-				1FAEE7971DB1295600F17EC6 /* Main.storyboard */,
 				1FAEE79D1DB1295600F17EC6 /* Assets.xcassets */,
-				1FAEE79F1DB1295600F17EC6 /* LaunchScreen.storyboard */,
-				1FAEE7A21DB1295600F17EC6 /* Info.plist */,
 				1FAEE79A1DB1295600F17EC6 /* Branvis_Bank.xcdatamodeld */,
+				1FF706FD1DB65CE8008A3B47 /* helper classes */,
+				1FAEE7A21DB1295600F17EC6 /* Info.plist */,
+				1FAEE79F1DB1295600F17EC6 /* LaunchScreen.storyboard */,
+				1FAEE7971DB1295600F17EC6 /* Main.storyboard */,
+				1FAEE7A91DB133F700F17EC6 /* models */,
 				1FAEE78E1DB1295600F17EC6 /* Supporting Files */,
+				1FAEE7A81DB133E700F17EC6 /* view controllers */,
 			);
 			path = "Branvis Bank";
 			sourceTree = "<group>";
@@ -96,6 +106,19 @@
 			children = (
 			);
 			name = models;
+			sourceTree = "<group>";
+		};
+		1FF706FD1DB65CE8008A3B47 /* helper classes */ = {
+			isa = PBXGroup;
+			children = (
+				1FF706FA1DB65CE1008A3B47 /* APIManager.h */,
+				1FF706FB1DB65CE1008A3B47 /* APIManager.m */,
+				1FF707071DB66FF9008A3B47 /* KeychainWrapper.h */,
+				1FF707081DB66FF9008A3B47 /* KeychainWrapper.m */,
+				1FF707041DB66423008A3B47 /* WebService.h */,
+				1FF707051DB66423008A3B47 /* WebService.m */,
+			);
+			name = "helper classes";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,10 +193,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FF707061DB66423008A3B47 /* WebService.m in Sources */,
 				1FAEE7961DB1295600F17EC6 /* LogInViewController.m in Sources */,
 				1FAEE79C1DB1295600F17EC6 /* Branvis_Bank.xcdatamodeld in Sources */,
 				1FAEE7931DB1295600F17EC6 /* AppDelegate.m in Sources */,
+				1FF707091DB66FF9008A3B47 /* KeychainWrapper.m in Sources */,
 				1FAEE7901DB1295600F17EC6 /* main.m in Sources */,
+				1FF706FC1DB65CE1008A3B47 /* APIManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

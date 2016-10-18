@@ -7,6 +7,7 @@
 //
 
 #import "LogInViewController.h"
+#import "APIManager.h"
 
 @interface LogInViewController ()
 
@@ -26,5 +27,14 @@
     // Dispose of any resources that can be recreated.
 }
 
+#pragma mark - button handler
+
+- (IBAction) loginButtonPressed {
+    if (self.usernameTextField.text > 0 && self.passwordTextField.text > 0) {
+        [APIManager.sharedManager loginWithUsername:self.usernameTextField.text andPassword:self.passwordTextField.text withCompletion:^(BOOL success) {
+            
+        }];
+    }
+}
 
 @end
