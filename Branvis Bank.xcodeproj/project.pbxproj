@@ -17,6 +17,10 @@
 		1FF706FC1DB65CE1008A3B47 /* APIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF706FB1DB65CE1008A3B47 /* APIManager.m */; };
 		1FF707061DB66423008A3B47 /* WebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF707051DB66423008A3B47 /* WebService.m */; };
 		1FF707091DB66FF9008A3B47 /* KeychainWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF707081DB66FF9008A3B47 /* KeychainWrapper.m */; };
+		1FF7070C1DB6C50E008A3B47 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF7070B1DB6C50E008A3B47 /* HomeViewController.m */; };
+		1FF7070F1DB6C5F7008A3B47 /* NewTransactionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF7070E1DB6C5F7008A3B47 /* NewTransactionViewController.m */; };
+		1FF707121DB6C619008A3B47 /* HistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF707111DB6C619008A3B47 /* HistoryViewController.m */; };
+		1FF707151DB6C798008A3B47 /* app icon 167x167.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FF707141DB6C798008A3B47 /* app icon 167x167.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +41,13 @@
 		1FF707051DB66423008A3B47 /* WebService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebService.m; sourceTree = "<group>"; };
 		1FF707071DB66FF9008A3B47 /* KeychainWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainWrapper.h; sourceTree = "<group>"; };
 		1FF707081DB66FF9008A3B47 /* KeychainWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainWrapper.m; sourceTree = "<group>"; };
+		1FF7070A1DB6C50E008A3B47 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		1FF7070B1DB6C50E008A3B47 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		1FF7070D1DB6C5F7008A3B47 /* NewTransactionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewTransactionViewController.h; sourceTree = "<group>"; };
+		1FF7070E1DB6C5F7008A3B47 /* NewTransactionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewTransactionViewController.m; sourceTree = "<group>"; };
+		1FF707101DB6C619008A3B47 /* HistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryViewController.h; sourceTree = "<group>"; };
+		1FF707111DB6C619008A3B47 /* HistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryViewController.m; sourceTree = "<group>"; };
+		1FF707141DB6C798008A3B47 /* app icon 167x167.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app icon 167x167.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +85,7 @@
 				1FAEE79D1DB1295600F17EC6 /* Assets.xcassets */,
 				1FAEE79A1DB1295600F17EC6 /* Branvis_Bank.xcdatamodeld */,
 				1FF706FD1DB65CE8008A3B47 /* helper classes */,
+				1FF707131DB6C77E008A3B47 /* images */,
 				1FAEE7A21DB1295600F17EC6 /* Info.plist */,
 				1FAEE79F1DB1295600F17EC6 /* LaunchScreen.storyboard */,
 				1FAEE7971DB1295600F17EC6 /* Main.storyboard */,
@@ -97,6 +109,12 @@
 			children = (
 				1FAEE7941DB1295600F17EC6 /* LogInViewController.h */,
 				1FAEE7951DB1295600F17EC6 /* LogInViewController.m */,
+				1FF7070A1DB6C50E008A3B47 /* HomeViewController.h */,
+				1FF7070B1DB6C50E008A3B47 /* HomeViewController.m */,
+				1FF7070D1DB6C5F7008A3B47 /* NewTransactionViewController.h */,
+				1FF7070E1DB6C5F7008A3B47 /* NewTransactionViewController.m */,
+				1FF707101DB6C619008A3B47 /* HistoryViewController.h */,
+				1FF707111DB6C619008A3B47 /* HistoryViewController.m */,
 			);
 			name = "view controllers";
 			sourceTree = "<group>";
@@ -119,6 +137,14 @@
 				1FF707051DB66423008A3B47 /* WebService.m */,
 			);
 			name = "helper classes";
+			sourceTree = "<group>";
+		};
+		1FF707131DB6C77E008A3B47 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				1FF707141DB6C798008A3B47 /* app icon 167x167.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,6 +207,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FAEE7A11DB1295600F17EC6 /* LaunchScreen.storyboard in Resources */,
+				1FF707151DB6C798008A3B47 /* app icon 167x167.png in Resources */,
 				1FAEE79E1DB1295600F17EC6 /* Assets.xcassets in Resources */,
 				1FAEE7991DB1295600F17EC6 /* Main.storyboard in Resources */,
 			);
@@ -195,11 +222,14 @@
 			files = (
 				1FF707061DB66423008A3B47 /* WebService.m in Sources */,
 				1FAEE7961DB1295600F17EC6 /* LogInViewController.m in Sources */,
+				1FF7070F1DB6C5F7008A3B47 /* NewTransactionViewController.m in Sources */,
+				1FF707121DB6C619008A3B47 /* HistoryViewController.m in Sources */,
 				1FAEE79C1DB1295600F17EC6 /* Branvis_Bank.xcdatamodeld in Sources */,
 				1FAEE7931DB1295600F17EC6 /* AppDelegate.m in Sources */,
 				1FF707091DB66FF9008A3B47 /* KeychainWrapper.m in Sources */,
 				1FAEE7901DB1295600F17EC6 /* main.m in Sources */,
 				1FF706FC1DB65CE1008A3B47 /* APIManager.m in Sources */,
+				1FF7070C1DB6C50E008A3B47 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -12,7 +12,7 @@
 
 static NSString *baseAddress = @"http://www.branvis.com/bank/services/";
 
-- (void) post:(NSString *) url andCompletion:(void (^)(NSURLResponse *response, NSData *data)) completion {
+- (void) get:(NSString *) url andCompletion:(void (^)(NSURLResponse *response, NSData *data)) completion {
     NSURL *serviceURL = [NSURL URLWithString:[NSString stringWithFormat:@"%@%@", baseAddress, url]];
     
     NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:serviceURL];

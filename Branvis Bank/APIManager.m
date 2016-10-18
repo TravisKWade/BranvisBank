@@ -33,12 +33,15 @@ static APIManager *manager;
 - (void) loginWithUsername:(NSString *) username andPassword:(NSString *) password withCompletion: (void (^)(BOOL success)) completion {
     NSString *urlWithParams = [NSString stringWithFormat:@"login/login.php?uname=%@&pass=%@", username, password];
     
-    [self.service post:urlWithParams andCompletion:^(NSURLResponse *response, NSData *data) {
+    [self.service get:urlWithParams andCompletion:^(NSURLResponse *response, NSData *data) {
         if(data) {
             NSError *error = nil;
-            NSArray *jsonArray = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:&error];
+            NSDictionary *userArray = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:&error];
+            NSDictionary *user = [userArray objectForKey:@"user"];
             
-            NSLog(@"%@", jsonArray);
+            [[NSUserDefaults standardUserDefaults] setObject:[user objectForKey:@"userID"] forKey:@"userID"];
+            [[NSUserDefaults standardUserDefaults] setObject:[user objectForKey:@"groupID"] forKey:@"groupID"];
+            
             completion(YES);
         } else {
             completion(NO);

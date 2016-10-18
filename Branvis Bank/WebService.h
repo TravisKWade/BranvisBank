@@ -10,6 +10,6 @@
 
 @interface WebService : NSObject
 
-- (void) post:(NSString *) url andCompletion:(void (^)(NSURLResponse *response, NSData *data)) completion;
+- (void) get:(NSString *) url andCompletion:(void (^)(NSURLResponse *response, NSData *data)) completion;
 
 @end
