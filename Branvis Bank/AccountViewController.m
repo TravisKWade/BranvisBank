@@ -1,18 +1,18 @@
 //
-//  HistoryViewController.m
+//  AccountViewController.m
 //  Branvis Bank
 //
 //  Created by Travis Wade on 10/18/16.
 //  Copyright © 2016 Branvis Software. All rights reserved.
 //
 
-#import "HistoryViewController.h"
+#import "AccountViewController.h"
 
-@interface HistoryViewController ()
+@interface AccountViewController ()
 
 @end
 
-@implementation HistoryViewController
+@implementation AccountViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

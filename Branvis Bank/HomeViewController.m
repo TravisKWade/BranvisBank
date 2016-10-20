@@ -7,6 +7,8 @@
 //
 
 #import "HomeViewController.h"
+#import "APIManager.h"
+#import "HoldingAccount.h"
 
 @interface HomeViewController ()
 
@@ -16,12 +18,28 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    [self setTitle:@"Accounts"];
+    
+    [self getAccounts];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+#pragma mark - get accounts
+
+- (void) getAccounts {
+    int groupID = (int)[[NSUserDefaults standardUserDefaults] integerForKey:@"groupID"];
+    
+    [APIManager.sharedManager getAccountsForGroup:groupID withCompletion:^(BOOL success, NSArray *accounts) {
+        if (success) {
+            self.accounts = accounts;
+            [self.tableview reloadData];
+        }
+    }];
 }
 
 /*
@@ -33,5 +51,36 @@
     // Pass the selected object to the new view controller.
 }
 */
+
+#pragma mark - table view methods
+
+- (NSInteger) numberOfSectionsInTableView:(UITableView *)tableView {
+    return 1;
+}
+
+
+- (NSInteger) tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    
+    return self.accounts.count;
+}
+
+- (UITableViewCell *) tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    static NSString *reuseID = @"Cell";
+    
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:reuseID];
+    
+    if (cell == nil) {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:reuseID];
+    }
+    
+    HoldingAccount *account = (HoldingAccount *)[self.accounts objectAtIndex:indexPath.row];
+    cell.textLabel.text = account.name;
+    
+    return cell;
+}
+
+- (void) tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    
+}
 
 @end

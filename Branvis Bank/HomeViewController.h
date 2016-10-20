@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HomeViewController : UITabBarController
+@interface HomeViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
+
+@property (strong, nonatomic) IBOutlet UITableView *tableview;
+
+@property (strong, nonatomic) NSArray *accounts;
 
 @end

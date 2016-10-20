@@ -7,6 +7,7 @@
 //
 
 #import "APIManager.h"
+#import "HoldingAccount.h"
 
 @implementation APIManager
 
@@ -45,6 +46,31 @@ static APIManager *manager;
             completion(YES);
         } else {
             completion(NO);
+        }
+    }];
+}
+
+#pragma mark -  accounts
+
+- (void) getAccountsForGroup:(int) groupID withCompletion: (void (^)(BOOL success, NSArray *accounts))completion {
+    NSString *urlWithParams = [NSString stringWithFormat:@"account/accounts.php?gid=%d", groupID];
+    
+    [self.service get:urlWithParams andCompletion:^(NSURLResponse *response, NSData *data) {
+        NSMutableArray *accounts = [[NSMutableArray alloc] init];
+        
+        if(data) {
+            NSError *error = nil;
+            NSDictionary *accountsDictionary = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingAllowFragments error:&error];
+            NSArray *accountsArray = [accountsDictionary objectForKey:@"accounts"];
+            
+            for (int i = 0; i <  accountsArray.count; i++) {
+                HoldingAccount *account = [[HoldingAccount alloc] initWithDictionary:[accountsArray objectAtIndex:i]];
+                [accounts addObject:account];
+            }
+            
+            completion(YES, accounts);
+        } else {
+            completion(NO, accounts);
         }
     }];
 }

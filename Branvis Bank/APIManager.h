@@ -17,4 +17,6 @@
 
 - (void) loginWithUsername:(NSString *) username andPassword:(NSString *) password withCompletion: (void (^)(BOOL success))completion;
 
+- (void) getAccountsForGroup:(int) groupID withCompletion: (void (^)(BOOL success, NSArray *accounts))completion;
+
 @end

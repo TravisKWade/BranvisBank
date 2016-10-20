@@ -19,8 +19,17 @@
 		1FF707091DB66FF9008A3B47 /* KeychainWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF707081DB66FF9008A3B47 /* KeychainWrapper.m */; };
 		1FF7070C1DB6C50E008A3B47 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF7070B1DB6C50E008A3B47 /* HomeViewController.m */; };
 		1FF7070F1DB6C5F7008A3B47 /* NewTransactionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF7070E1DB6C5F7008A3B47 /* NewTransactionViewController.m */; };
-		1FF707121DB6C619008A3B47 /* HistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF707111DB6C619008A3B47 /* HistoryViewController.m */; };
-		1FF707151DB6C798008A3B47 /* app icon 167x167.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FF707141DB6C798008A3B47 /* app icon 167x167.png */; };
+		1FF707181DB70BBF008A3B47 /* AccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF707171DB70BBF008A3B47 /* AccountViewController.m */; };
+		1FF7071B1DB70C68008A3B47 /* HoldingAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF7071A1DB70C68008A3B47 /* HoldingAccount.m */; };
+		1FF7071E1DB7B2B2008A3B47 /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF7071D1DB7B2B2008A3B47 /* DataManager.m */; };
+		1FF7072F1DB7FDF9008A3B47 /* Category+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF707201DB7FDF9008A3B47 /* Category+CoreDataClass.m */; };
+		1FF707301DB7FDF9008A3B47 /* Category+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF707221DB7FDF9008A3B47 /* Category+CoreDataProperties.m */; };
+		1FF707311DB7FDF9008A3B47 /* Account+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF707241DB7FDF9008A3B47 /* Account+CoreDataClass.m */; };
+		1FF707321DB7FDF9008A3B47 /* Account+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF707261DB7FDF9008A3B47 /* Account+CoreDataProperties.m */; };
+		1FF707331DB7FDF9008A3B47 /* Transaction+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF707281DB7FDF9008A3B47 /* Transaction+CoreDataClass.m */; };
+		1FF707341DB7FDF9008A3B47 /* Transaction+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF7072A1DB7FDF9008A3B47 /* Transaction+CoreDataProperties.m */; };
+		1FF707351DB7FDF9008A3B47 /* Debitor+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF7072C1DB7FDF9008A3B47 /* Debitor+CoreDataClass.m */; };
+		1FF707361DB7FDF9008A3B47 /* Debitor+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF7072E1DB7FDF9008A3B47 /* Debitor+CoreDataProperties.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,9 +54,28 @@
 		1FF7070B1DB6C50E008A3B47 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		1FF7070D1DB6C5F7008A3B47 /* NewTransactionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewTransactionViewController.h; sourceTree = "<group>"; };
 		1FF7070E1DB6C5F7008A3B47 /* NewTransactionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewTransactionViewController.m; sourceTree = "<group>"; };
-		1FF707101DB6C619008A3B47 /* HistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryViewController.h; sourceTree = "<group>"; };
-		1FF707111DB6C619008A3B47 /* HistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryViewController.m; sourceTree = "<group>"; };
-		1FF707141DB6C798008A3B47 /* app icon 167x167.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app icon 167x167.png"; sourceTree = "<group>"; };
+		1FF707161DB70BBF008A3B47 /* AccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountViewController.h; sourceTree = "<group>"; };
+		1FF707171DB70BBF008A3B47 /* AccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountViewController.m; sourceTree = "<group>"; };
+		1FF707191DB70C68008A3B47 /* HoldingAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HoldingAccount.h; sourceTree = "<group>"; };
+		1FF7071A1DB70C68008A3B47 /* HoldingAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HoldingAccount.m; sourceTree = "<group>"; };
+		1FF7071C1DB7B2B2008A3B47 /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		1FF7071D1DB7B2B2008A3B47 /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		1FF7071F1DB7FDF9008A3B47 /* Category+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Category+CoreDataClass.h"; sourceTree = "<group>"; };
+		1FF707201DB7FDF9008A3B47 /* Category+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Category+CoreDataClass.m"; sourceTree = "<group>"; };
+		1FF707211DB7FDF9008A3B47 /* Category+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Category+CoreDataProperties.h"; sourceTree = "<group>"; };
+		1FF707221DB7FDF9008A3B47 /* Category+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Category+CoreDataProperties.m"; sourceTree = "<group>"; };
+		1FF707231DB7FDF9008A3B47 /* Account+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Account+CoreDataClass.h"; sourceTree = "<group>"; };
+		1FF707241DB7FDF9008A3B47 /* Account+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Account+CoreDataClass.m"; sourceTree = "<group>"; };
+		1FF707251DB7FDF9008A3B47 /* Account+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Account+CoreDataProperties.h"; sourceTree = "<group>"; };
+		1FF707261DB7FDF9008A3B47 /* Account+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Account+CoreDataProperties.m"; sourceTree = "<group>"; };
+		1FF707271DB7FDF9008A3B47 /* Transaction+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Transaction+CoreDataClass.h"; sourceTree = "<group>"; };
+		1FF707281DB7FDF9008A3B47 /* Transaction+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Transaction+CoreDataClass.m"; sourceTree = "<group>"; };
+		1FF707291DB7FDF9008A3B47 /* Transaction+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Transaction+CoreDataProperties.h"; sourceTree = "<group>"; };
+		1FF7072A1DB7FDF9008A3B47 /* Transaction+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Transaction+CoreDataProperties.m"; sourceTree = "<group>"; };
+		1FF7072B1DB7FDF9008A3B47 /* Debitor+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Debitor+CoreDataClass.h"; sourceTree = "<group>"; };
+		1FF7072C1DB7FDF9008A3B47 /* Debitor+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Debitor+CoreDataClass.m"; sourceTree = "<group>"; };
+		1FF7072D1DB7FDF9008A3B47 /* Debitor+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Debitor+CoreDataProperties.h"; sourceTree = "<group>"; };
+		1FF7072E1DB7FDF9008A3B47 /* Debitor+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Debitor+CoreDataProperties.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,8 +141,8 @@
 				1FF7070B1DB6C50E008A3B47 /* HomeViewController.m */,
 				1FF7070D1DB6C5F7008A3B47 /* NewTransactionViewController.h */,
 				1FF7070E1DB6C5F7008A3B47 /* NewTransactionViewController.m */,
-				1FF707101DB6C619008A3B47 /* HistoryViewController.h */,
-				1FF707111DB6C619008A3B47 /* HistoryViewController.m */,
+				1FF707161DB70BBF008A3B47 /* AccountViewController.h */,
+				1FF707171DB70BBF008A3B47 /* AccountViewController.m */,
 			);
 			name = "view controllers";
 			sourceTree = "<group>";
@@ -122,6 +150,24 @@
 		1FAEE7A91DB133F700F17EC6 /* models */ = {
 			isa = PBXGroup;
 			children = (
+				1FF707191DB70C68008A3B47 /* HoldingAccount.h */,
+				1FF7071A1DB70C68008A3B47 /* HoldingAccount.m */,
+				1FF707231DB7FDF9008A3B47 /* Account+CoreDataClass.h */,
+				1FF707241DB7FDF9008A3B47 /* Account+CoreDataClass.m */,
+				1FF707251DB7FDF9008A3B47 /* Account+CoreDataProperties.h */,
+				1FF707261DB7FDF9008A3B47 /* Account+CoreDataProperties.m */,
+				1FF7071F1DB7FDF9008A3B47 /* Category+CoreDataClass.h */,
+				1FF707201DB7FDF9008A3B47 /* Category+CoreDataClass.m */,
+				1FF707211DB7FDF9008A3B47 /* Category+CoreDataProperties.h */,
+				1FF707221DB7FDF9008A3B47 /* Category+CoreDataProperties.m */,
+				1FF7072B1DB7FDF9008A3B47 /* Debitor+CoreDataClass.h */,
+				1FF7072C1DB7FDF9008A3B47 /* Debitor+CoreDataClass.m */,
+				1FF7072D1DB7FDF9008A3B47 /* Debitor+CoreDataProperties.h */,
+				1FF7072E1DB7FDF9008A3B47 /* Debitor+CoreDataProperties.m */,
+				1FF707271DB7FDF9008A3B47 /* Transaction+CoreDataClass.h */,
+				1FF707281DB7FDF9008A3B47 /* Transaction+CoreDataClass.m */,
+				1FF707291DB7FDF9008A3B47 /* Transaction+CoreDataProperties.h */,
+				1FF7072A1DB7FDF9008A3B47 /* Transaction+CoreDataProperties.m */,
 			);
 			name = models;
 			sourceTree = "<group>";
@@ -131,6 +177,8 @@
 			children = (
 				1FF706FA1DB65CE1008A3B47 /* APIManager.h */,
 				1FF706FB1DB65CE1008A3B47 /* APIManager.m */,
+				1FF7071C1DB7B2B2008A3B47 /* DataManager.h */,
+				1FF7071D1DB7B2B2008A3B47 /* DataManager.m */,
 				1FF707071DB66FF9008A3B47 /* KeychainWrapper.h */,
 				1FF707081DB66FF9008A3B47 /* KeychainWrapper.m */,
 				1FF707041DB66423008A3B47 /* WebService.h */,
@@ -142,7 +190,6 @@
 		1FF707131DB6C77E008A3B47 /* images */ = {
 			isa = PBXGroup;
 			children = (
-				1FF707141DB6C798008A3B47 /* app icon 167x167.png */,
 			);
 			name = images;
 			sourceTree = "<group>";
@@ -207,7 +254,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FAEE7A11DB1295600F17EC6 /* LaunchScreen.storyboard in Resources */,
-				1FF707151DB6C798008A3B47 /* app icon 167x167.png in Resources */,
 				1FAEE79E1DB1295600F17EC6 /* Assets.xcassets in Resources */,
 				1FAEE7991DB1295600F17EC6 /* Main.storyboard in Resources */,
 			);
@@ -221,15 +267,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FF707061DB66423008A3B47 /* WebService.m in Sources */,
+				1FF7071E1DB7B2B2008A3B47 /* DataManager.m in Sources */,
+				1FF7072F1DB7FDF9008A3B47 /* Category+CoreDataClass.m in Sources */,
 				1FAEE7961DB1295600F17EC6 /* LogInViewController.m in Sources */,
 				1FF7070F1DB6C5F7008A3B47 /* NewTransactionViewController.m in Sources */,
-				1FF707121DB6C619008A3B47 /* HistoryViewController.m in Sources */,
 				1FAEE79C1DB1295600F17EC6 /* Branvis_Bank.xcdatamodeld in Sources */,
+				1FF707331DB7FDF9008A3B47 /* Transaction+CoreDataClass.m in Sources */,
+				1FF707181DB70BBF008A3B47 /* AccountViewController.m in Sources */,
 				1FAEE7931DB1295600F17EC6 /* AppDelegate.m in Sources */,
+				1FF707351DB7FDF9008A3B47 /* Debitor+CoreDataClass.m in Sources */,
+				1FF707311DB7FDF9008A3B47 /* Account+CoreDataClass.m in Sources */,
 				1FF707091DB66FF9008A3B47 /* KeychainWrapper.m in Sources */,
+				1FF707301DB7FDF9008A3B47 /* Category+CoreDataProperties.m in Sources */,
 				1FAEE7901DB1295600F17EC6 /* main.m in Sources */,
 				1FF706FC1DB65CE1008A3B47 /* APIManager.m in Sources */,
+				1FF7071B1DB70C68008A3B47 /* HoldingAccount.m in Sources */,
 				1FF7070C1DB6C50E008A3B47 /* HomeViewController.m in Sources */,
+				1FF707341DB7FDF9008A3B47 /* Transaction+CoreDataProperties.m in Sources */,
+				1FF707321DB7FDF9008A3B47 /* Account+CoreDataProperties.m in Sources */,
+				1FF707361DB7FDF9008A3B47 /* Debitor+CoreDataProperties.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,5 +1,5 @@
 //
-//  HistoryViewController.h
+//  AccountViewController.h
 //  Branvis Bank
 //
 //  Created by Travis Wade on 10/18/16.
@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HistoryViewController : UIViewController
+@interface AccountViewController : UIViewController
+
 
 @end
